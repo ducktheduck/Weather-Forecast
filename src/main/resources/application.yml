@@ -13,7 +13,7 @@ spring:
     flyway:
         enabled: true
         create-schemas: true
-        schemas: gdsc-migration
+        schemas: weatherforecast-migration
         locations: classpath:db/migration
         url: jdbc:postgresql://localhost:5432/postgres
         user: postgres
