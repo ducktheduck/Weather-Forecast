@@ -5,8 +5,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class Test {
+public class City {
 
-    private String test1;
-
+    private Long id;
+    private String name;
 }
